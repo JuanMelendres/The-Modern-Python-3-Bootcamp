@@ -18,5 +18,5 @@ print(answer)
 person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
 
 # use the person variable in your answer
-# answer = dict.fromkeys()
-[[print(i, j) for j in i] for i in person]
+answer = {thing[0]: thing[1] for thing in person} # {k:v for k,v in person} or dict(person)
+print(answer)
