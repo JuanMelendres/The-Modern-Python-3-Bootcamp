@@ -29,5 +29,11 @@ answer = dict(vowels)
 print(answer)
 
 # Others solutions 
-answer = {char:0 for char in 'aeiou'}
+answer = {char: 0 for char in 'aeiou'}
 answer = dict.fromkeys("aeiou", 0)
+
+# ------------- Problem 4 Solution ------------- #
+
+# make sure your solution is assigned to the answer variable so the tests can work!
+answer = {ascii: chr(ascii) for ascii in range(65,91)}
+print(answer)
