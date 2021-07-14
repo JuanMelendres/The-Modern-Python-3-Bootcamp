@@ -68,6 +68,7 @@ def speak(animal="dog"):
 # Keyword Arguments only works if we know the name of the parameters
 
 def full_name(first, last):
+    """Documenting Functions"""
     return f"your name is {first} {last}"
 
 print(full_name(first='Juan', last='Melendres'))
